@@ -8,8 +8,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-image: url(images/image.png);
-    background-size: cover;
+    background-color: rgba(13, 216, 252, 0.808);
+    
 }
 .sec1{
     display: flex;
@@ -176,19 +176,17 @@ body{
    
 }
 .contact{
-    width:850px;
+    width:800px;
     height:800px;
     background-color: white;
     margin-top: 20px;
-}
-.contact{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 40px;
-   
+    
 }
+
 .contactform{
     width: 800px;
     height: 650px;
