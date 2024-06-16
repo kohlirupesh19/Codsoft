@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sec1{
+width: 100%;
+height: 900px;
+display: flex;
+justify-content: center;
+align-items: center
+}
+.Cal{
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly center;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    border-radius: 40px;
+    position: fixed;
+    gap: 4px;
+    top: 100px;
+}
+.display{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    text-align: end;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+.Cal button{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgba(46, 44, 44, 0.418);
+    color: white;
+    border: none;
+}
+.btnor button{
+    background-color: rgb(255, 166, 0);
+    border: none;
+}
