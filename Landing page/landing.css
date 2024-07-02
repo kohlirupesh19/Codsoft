@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color:rgba(135, 207, 235, 0.493);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar img{
+    height: 8vh;
+    margin-top: 1.2vh;
+    margin-left: 8vh;
+}
+.link{
+    width: 40vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: rgba(0, 0, 0, 0.712);   
+    font-size: small;
+}
+.link a:hover{
+    color: black;
+
+}
+.navbar button{
+    margin-right: 8vh;
+    margin-top: 1vh;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25vh;
+    height: 7vh;   
+}
+.navbar button:hover{
+    background-color: black;   
+    color: white;
+    transition-delay: 0.1s;
+  }
+ .sec1{
+    width: 100%;
+    display: flex;
+    
+ }
+ .intro{
+    width: 50%;
+    height: 80vh;
+    background-color: brown;
+ }
+ .picture{
+    width: 50%;
+    height: 80vh;
+    background-color:rgba(135, 207, 235, 0.493);
+    background-image: url(images/house.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+ }
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2vh;
+    background-color:rgba(135, 207, 235, 0.493);
+    
+}
+ .inner{
+    display: flex;
+    gap: 30px;
+ }
+ .intro span{
+    font-size: 10vh;
+    display: flex;
+    margin-left: 10vh;
+ }
+ 
+ .inner span{
+    font-size:4vh ;
+ }
+ .inner i{
+    color: blue;
+ }
+ .intro p{
+    color: rgba(0, 0, 0, 0.712) ;
+    margin-left: 10vh;
+ }
+ .intro button{
+    width: 23vh;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10vh;
+    
+ }
+ .search{
+    width : 65%;
+    height:20vh;
+    background-color: white;
+    border: 0.5vh solid black;
+    position: absolute;
+    top: 84vh;
+    left: 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+  
+    gap: 2.5vh;
+ }
+ .search button{
+    font-weight: 600;
+width: 30vh;
+height: 6vh;
+background-color: white;
+border-radius: 6px;
+border: 1px solid rgba(0, 0, 0, 0.582);
+
+ }
+ .search :nth-child(4){
+    width: 20vh;
+    background-color: black;
+    color: white;
+ }
+ .sbtn{
+    display: flex;
+    gap: 3vh;
+    justify-content: center;
+    align-items: center;
+ }
+ .search h2{
+    margin-left: 4vh;
+ }
+ .sec2{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+ .propin{
+    width: 100%;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    gap: 1vh;
+    padding-left: 18vh;
+ }
+ .propin2{
+   width: 100%;
+    height: 7vh;
+    background-color: white;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 90vh;
+ }
+ .propin span{
+    font-size: 4vh;
+
+   
+ }
+ .propin2 span{
+    font-size: 6vh;
+ }
+ .sec3{
+   width: 100%;
+    height: 50vh;
+    background-color: black;
+ }
+ .prop{
+   width: 90%;
+   height: 65vh;
+   background-color: transparent;
+   position: absolute;
+   top: 128vh;
+   left: 13vh;
+   display: flex;
+   justify-content: space-evenly;
+ }
+ .p1{
+   height: 65vh;
+   width: 30%;
+   background-color: white;   
+ }
+ .p1:hover{
+   scale: 1.1;
+   border: 1px solid black;
+ }
+ .image{
+   height:32.5vh ;
+   width: 100%;
+   background-image: url(images/h1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center
+ }
+ .image1{
+   height:32.5vh ;
+   width: 100%;
+   background-image: url(images/h2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center
+ }
+ .image2{
+   height:32.5vh ;
+   width: 100%;
+   background-image: url(images/h3.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center
+ }
+.propinfo{
+   width: 100%;
+   height: 32.5vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 7vh;
+   padding-top: 2vh;
+   font-size: 3vh;
+}
+ .propinfo button{
+  width: 15vh;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+ }
+ .sec4{
+   width: 100%;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .footdiv{
+   width: 80%;
+   height: 40vh;
+   display: flex;
+   border-bottom: 1px solid #dddddd;
+ }
+ .infootdiv1{
+display: flex;
+flex-direction: column;
+width: 50%;
+justify-content: center;
+font-size: 5vh;
+ }
+ .infootdiv2 {
+   display: flex;
+   width: 50%;
+font-size: 4vh;
+gap: 1vh;
+color: #dddddd;
+
+ }
